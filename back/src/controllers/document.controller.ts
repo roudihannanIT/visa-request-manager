@@ -114,8 +114,8 @@ export const deleteDocument = async (req: Request, res: Response) => {
   }
 };
 
-// update document status (ready | not ready)
-// PUT /api/documents/:id/toggle
+// change document status (ready | not ready)
+// PATCH /api/documents/:id/toggle
 export const toggleDocumentStatus = async (req: Request, res: Response) => {
   try {
     const document = await Document.findById(req.params.id);

@@ -18,7 +18,7 @@ const applicationSchema = new mongoose.Schema({
         minlength: [3, 'The title must be at least 3 letters long'],
         maxlength: [100, 'The title must be less than 100 characters'],
     },
-    visType: {
+    visaType: {
         type: String,
         required: [true, 'Visa type required'],
         enum: {
