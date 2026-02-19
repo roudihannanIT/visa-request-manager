@@ -27,27 +27,27 @@ A RESTful API for managing visa applications and required documents, built with 
 ## 📁 Project Structure
 
 back/
-├── src/
-│   ├── controllers/     # Business logic
-│   │   ├── application.controller.ts
-│   │   └── document.controller.ts
-│   ├── models/          # Data models
-│   │   ├── application.model.ts
-│   │   └── document.model.ts
-│   ├── routes/          # API routes
-│   │   ├── application.routes.ts
-│   │   ├── document.routes.ts
-│   │   └── index.ts
-│   ├── middleware/      # (Under development)
-│   ├── utils/           # Helper functions
-│   │   └── database.ts
-│   ├── app.ts           # Express app setup
-│   └── server.ts        # Entry point
-├── .env                 # Environment variables
-├── .gitignore
-├── package.json
-├── tsconfig.json
-└── README.md
+    src/
+        controllers/     # Business logic
+          application.controller.ts
+          document.controller.ts
+        models/          # Data models
+          application.model.ts
+          document.model.ts
+        routes/          # API routes
+          application.routes.ts
+          document.routes.ts
+          index.ts
+        middleware/      # (Under development)
+        utils/           # Helper functions
+          database.ts
+        app.ts           # Express app setup
+        server.ts        # Entry point
+    .env                 # Environment variables
+    .gitignore
+    package.json
+    tsconfig.json
+    README.md
 
 
 ## 🚀 Getting Started
@@ -61,25 +61,25 @@ back/
 ### Installation
 
 1. **Clone the repository**
-> git clone https://github.com/roudihannanIT/visa-request-manager.git
-> cd visa-request-manager/back
+  > git clone https://github.com/roudihannanIT/visa-request-manager.git
+  > cd visa-request-manager/back
 
 
 2. Install dependencies
 
-> npm install
+  > npm install
 
 
 3. Set up environment variables (Create a .env file in the back folder):
 
-    env
-    PORT=5000
-    MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.xxxxx.mongodb.net/visa-app
+- env
+- PORT=5000
+- MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.xxxxx.mongodb.net/visa-app
 
 
 4. Run in development mode
 
-> npm run dev
+  > npm run dev
 
 
 ## 📬 API Endpoints
@@ -111,7 +111,7 @@ json
   "status": "in-progress",
   "appointmentDate": "2026-07-15",
   "notes": "Interview at German embassy"
-}
+  }
 
 
 ### Document
@@ -123,7 +123,7 @@ json
   "isReady": true,
   "notes": "Valid until 2027",
   "deadline": "2026-06-01"
-}
+  }
 
 
 ## 🔜 Coming Soon
