@@ -87,7 +87,7 @@ export const updateApplication = async (req: Request, res: Response) => {
     if (!application) {
       return res.status(404).json({
         success: false,
-        message: 'the order dose not exist!'
+        message: 'the order does not exist!'
       });
     }
 
@@ -113,7 +113,7 @@ export const deleteApplication = async (req: Request, res: Response) => {
     if (!application) {
       return res.status(404).json({
         success: false,
-        message: 'the order dose not exist!'
+        message: 'the order does not exist!'
       });
     }
 
