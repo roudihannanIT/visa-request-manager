@@ -27,26 +27,47 @@ A RESTful API for managing visa applications and required documents, built with 
 ## 📁 Project Structure
 
 back/
+
     src/
+    
         controllers/     # Business logic
+        
           application.controller.ts
+          
           document.controller.ts
+          
         models/          # Data models
+        
           application.model.ts
+          
           document.model.ts
+          
         routes/          # API routes
+        
           application.routes.ts
+          
           document.routes.ts
+          
           index.ts
+          
         middleware/      # (Under development)
+        
         utils/           # Helper functions
+        
           database.ts
+          
         app.ts           # Express app setup
+        
         server.ts        # Entry point
+        
     .env                 # Environment variables
+    
     .gitignore
+    
     package.json
+    
     tsconfig.json
+    
     README.md
 
 
@@ -107,11 +128,16 @@ back/
 json
 {
   "title": "Blue Card Application",
+  
   "visaType": "Blue Card",
+  
   "status": "in-progress",
+  
   "appointmentDate": "2026-07-15",
+  
   "notes": "Interview at German embassy"
-  }
+  
+}
 
 
 ### Document
@@ -119,11 +145,16 @@ json
 json
 {
   "applicationId": ":id",
+  
   "name": "Passport",
+  
   "isReady": true,
+  
   "notes": "Valid until 2027",
+  
   "deadline": "2026-06-01"
-  }
+  
+}
 
 
 ## 🔜 Coming Soon
