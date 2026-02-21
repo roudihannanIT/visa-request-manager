@@ -88,7 +88,7 @@ back/
 
 - GET [/api/applications] (Get all applications)
 - GET [/api/applications/:id] (Get single application with its documents)
-- POST [/api/applications] (Create a new application)
+- POST [/api/applications] (Create new application)
 - PUT [/api/applications/:id] (Update application)
 - DELETE [/api/applications/:id] (Delete application)
 
