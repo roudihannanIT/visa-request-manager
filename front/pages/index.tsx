@@ -30,7 +30,7 @@ const Home: NextPage = () => {
         <section className="grid md:grid-cols-3 gap-8 py-12">
           <div className="bg-white p-6 rounded-lg shadow-md">
             <div className="text-4xl mb-4">📋</div>
-            <h3 className="text-xl font-semibold mb-2">Track Applications</h3>
+            <h3 className="text-xl font-semibold mb-2 text-gray-950">Track Applications</h3>
             <p className="text-gray-600">
               Keep track of all your visa applications in one dashboard
             </p>
@@ -38,7 +38,7 @@ const Home: NextPage = () => {
           
           <div className="bg-white p-6 rounded-lg shadow-md">
             <div className="text-4xl mb-4">📎</div>
-            <h3 className="text-xl font-semibold mb-2">Manage Documents</h3>
+            <h3 className="text-xl font-semibold mb-2 text-gray-950">Manage Documents</h3>
             <p className="text-gray-600">
               Organize required documents and mark them as ready
             </p>
@@ -46,7 +46,7 @@ const Home: NextPage = () => {
           
           <div className="bg-white p-6 rounded-lg shadow-md">
             <div className="text-4xl mb-4">📅</div>
-            <h3 className="text-xl font-semibold mb-2">Never Miss Deadlines</h3>
+            <h3 className="text-xl font-semibold mb-2 text-gray-950">Never Miss Deadlines</h3>
             <p className="text-gray-600">
               Set interview dates and document deadlines
             </p>
@@ -55,7 +55,7 @@ const Home: NextPage = () => {
 
         {/* CTA Section */}
         <section className="text-center py-12 bg-gray-100 rounded-2xl">
-          <h2 className="text-3xl font-bold mb-4">Ready to start your Germany journey?</h2>
+          <h2 className="text-3xl font-bold mb-4 text-gray-950">Ready to start your Germany journey?</h2>
           <p className="text-gray-600 mb-6">Join hundreds of successful applicants</p>
           <Link 
             href="/dashboard" 

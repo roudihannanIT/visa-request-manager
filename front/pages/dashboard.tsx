@@ -56,7 +56,7 @@ const Dashboard: NextPage = () => {
         {/* Header */}
         <div className="flex justify-between items-center">
           <div>
-            <h1 className="text-3xl font-bold">My Applications</h1>
+            <h1 className="text-3xl font-bold text-gray-950">My Applications</h1>
             <p className="text-gray-600">Manage your visa applications</p>
           </div>
           <Link 
@@ -71,7 +71,7 @@ const Dashboard: NextPage = () => {
         <div className="grid grid-cols-4 gap-4">
           <div className="bg-white p-4 rounded-lg shadow">
             <p className="text-sm text-gray-600">Total</p>
-            <p className="text-2xl font-bold">{applications.length}</p>
+            <p className="text-2xl font-bold text-neutral-800">{applications.length}</p>
           </div>
           <div className="bg-white p-4 rounded-lg shadow">
             <p className="text-sm text-gray-600">In Progress</p>

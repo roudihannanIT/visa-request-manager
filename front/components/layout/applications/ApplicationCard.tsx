@@ -29,7 +29,7 @@ const ApplicationCard = ({ application, onDelete }: Props) => {
         <div className="flex items-center space-x-2">
           <span className="text-2xl">{visaTypeEmoji[application.visaType]}</span>
           <div>
-            <h3 className="text-lg font-semibold">{application.title}</h3>
+            <h3 className="text-md font-semibold text-gray-500">{application.title}</h3>
             <p className="text-sm text-gray-600">{application.visaType}</p>
           </div>
         </div>
